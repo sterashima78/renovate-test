@@ -3,5 +3,6 @@
   "extends": [
     "sterashima78/renovate-test//a/b/renovate-config.json"
   ],
+  "dependencyDashboard": true,
   "enabledManagers": ["npm"],
 }
