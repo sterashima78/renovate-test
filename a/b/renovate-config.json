@@ -1,4 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": true
+  {
+    "matchManagers": ["npm"],
+    "matchPaths": ["a/b/package.json"],
+    "groupName": "b"
+  }
 }
